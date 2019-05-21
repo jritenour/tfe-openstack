@@ -2,6 +2,10 @@ variable "region" {
    description = "Region name, for v3 keystone auth"
 }
 
+variable "vault_addr" {
+   description = "Vault address with http/s prefix & port"
+}
+
 variable "name" {
    description = "Name of the intance(s)"
 }
