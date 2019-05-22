@@ -42,7 +42,7 @@ resource "openstack_compute_instance_v2" "basic" {
   depends_on = ["openstack_compute_secgroup_v2.secgroup"]
 
   metadata = {
-    env = "prod"
+    env = "${var.env}"
   }
 
   network {

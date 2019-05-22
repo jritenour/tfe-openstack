@@ -29,3 +29,7 @@ variable "network" {
 variable "count" {
    description = "The number of instances to create"
 }
+
+variable "env" {
+   description = "Environment tag"
+}
